@@ -1,0 +1,105 @@
+#logo {
+    position: absolute;
+    left: 38pt;
+    top: 54.3pt;
+}
+#title
+{
+	position: absolute;
+	font-size: 90pt;
+	font-family: Lato ;
+	left: 45pt;
+    top: 120pt;
+}
+#bar1 {
+    width:289.2pt;
+    height:10pt;
+    background:#FE7F60;
+    position: absolute;
+    top:230pt;
+    left:54pt;
+}
+#bar2 {
+     width:289.2pt;
+    height:10pt;
+    background:#E4C714;
+    position: absolute;
+    top:230pt;
+    left:331.9pt;
+}
+#bar3 {
+   width:289.2pt;
+    height:10pt;
+    background:#14E4AE;
+    position: absolute;
+    top:230pt;
+    left:604.2pt;
+}
+#bar4 {
+   width:289.2pt;
+    height:10pt;
+    background:#788DFD;
+    position: absolute;
+    top:230pt;
+    left:873.4pt;
+}
+#rectangle {
+    width:1200pt;
+    height:312pt;
+    background:#F9F9F9;
+    position: absolute;
+    top:466pt;
+    left:0pt;
+    z-index: -1;
+
+}
+#rectangle1 {
+    width:1200pt;
+    height:120pt;
+    background:#F9F9F9;
+    position: absolute;
+    top:1380pt;
+    left:0pt;
+    z-index: -1;
+
+}
+#oval1 {
+	display: inline-block;
+	border-radius :100%;
+	      background: #FF9A9A;
+	      position:absolute;
+	      left:424pt;
+	      top:1005pt;
+	height:100pt;
+	width:100pt;
+}
+#oval2 {
+	display: inline-block;
+	border-radius :100%;
+	      background: #E4C714;
+	      position:absolute;
+	      left:556pt;
+	      top:1005pt;
+	height:100pt;
+	width:100pt;
+}
+#oval3 {
+	display: inline-block;
+	border-radius :100%;
+	      background: #59D3C5;
+	      position:absolute;
+	      left:424pt;
+	      top:1130pt;
+	height:100pt;
+	width:100pt;
+}
+#oval4 {
+	display: inline-block;
+	border-radius :100%;
+	      background: #8797EE;
+	      position:absolute;
+	      left:556pt;
+	      top:1130pt;
+	height:100pt;
+	width:100pt;
+}
