@@ -1,105 +1,114 @@
-#logo {
-    position: absolute;
-    left: 38pt;
-    top: 54.3pt;
+div,img
+{
+	position:absolute;
 }
+.fontlato
+{
+font-family:Lato;
+}
+#font2
+{
+	font-family:Helvetica;color:#ABA9A9;font-size:16pt;font-family:Helvetica;color:#ABA9A9;font-size:16pt;
+}
+
 #title
 {
-	position: absolute;
+	
 	font-size: 90pt;
 	font-family: Lato ;
 	left: 45pt;
     top: 120pt;
 }
-#bar1 {
-    width:289.2pt;
+.bars div
+{
     height:10pt;
-    background:#FE7F60;
-    position: absolute;
-    top:230pt;
-    left:54pt;
+	    top:230pt;
+	    	width:269.2pt;
+
+
+}
+#bar1 {
+	border-left: 10pt solid #FE7F60;
+	border-right:10pt solid #FE7F60;
+    background:#FE7F60;   
+    left:45pt;
 }
 #bar2 {
-     width:289.2pt;
-    height:10pt;
+	border-left: 10pt solid #E4C714;
+	
     background:#E4C714;
-    position: absolute;
-    top:230pt;
     left:331.9pt;
 }
 #bar3 {
-   width:289.2pt;
-    height:10pt;
+	border-left: 10pt solid #14E4AE;
+	
     background:#14E4AE;
-    position: absolute;
-    top:230pt;
     left:604.2pt;
 }
 #bar4 {
-   width:289.2pt;
-    height:10pt;
+	border-left: 10pt solid #788DFD;
+	
     background:#788DFD;
-    position: absolute;
-    top:230pt;
-    left:873.4pt;
+    left:860.4pt;
 }
-#rectangle {
-    width:1200pt;
-    height:312pt;
-    background:#F9F9F9;
-    position: absolute;
-    top:466pt;
-    left:0pt;
-    z-index: -1;
+
+.rectangles
+{
+	background:#F9F9F9;
+	left:0pt;
+	z-index: -1;
+	width:1200pt;
 
 }
 #rectangle1 {
-    width:1200pt;
-    height:120pt;
-    background:#F9F9F9;
-    position: absolute;
+    height:312pt; 
+    top:466pt;
+
+}
+#rectangle2 {
+    height:120pt;    
     top:1380pt;
-    left:0pt;
-    z-index: -1;
+  
 
 }
 #oval1 {
-	display: inline-block;
-	border-radius :100%;
+	
 	      background: #FF9A9A;
-	      position:absolute;
 	      left:424pt;
 	      top:1005pt;
-	height:100pt;
-	width:100pt;
+
 }
 #oval2 {
-	display: inline-block;
-	border-radius :100%;
+	
 	      background: #E4C714;
-	      position:absolute;
 	      left:556pt;
 	      top:1005pt;
-	height:100pt;
-	width:100pt;
+
 }
 #oval3 {
-	display: inline-block;
-	border-radius :100%;
+	
 	      background: #59D3C5;
-	      position:absolute;
 	      left:424pt;
 	      top:1130pt;
-	height:100pt;
-	width:100pt;
+
 }
 #oval4 {
-	display: inline-block;
-	border-radius :100%;
+	
 	      background: #8797EE;
-	      position:absolute;
 	      left:556pt;
 	      top:1130pt;
+	
+}
+.ovals 
+{
+	font-family:Lato; 
+	font-size:36pt;
+	color:#ffffff;
+}
+.ovals div 
+{
+
+	border-radius :100%;
 	height:100pt;
 	width:100pt;
 }
